@@ -1,0 +1,162 @@
+.flex{
+  display: flex;
+}
+.flex-1{
+  flex: 1;
+}
+.flex-2{
+  flex: 2;
+}
+.flex-3{
+  flex: 3;
+}
+.flex-4{
+  flex: 4;
+}
+.flex-5{
+  flex: 5;
+}
+.flex-6{
+  flex: 6;
+}
+.flex-center{
+  justify-content: center;
+  align-items: center;
+}
+.block{
+  display: block;
+}
+
+.vertical-divider{
+  height: 30px;
+  width: 1px;
+  background-color: white;
+  opacity: 0.5;
+}
+.banner-1{
+  width: 100%;
+  background-image: url(../asset/png_desktop/herobanner-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg1{
+  width: 100%;
+  height: 100%;
+  /* background-image: url(../asset/png_desktop/herobanner-2.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.bg1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+a{
+  text-decoration: none !important;
+}
+.title-1{
+  font-family: font_medium_65regular;
+  font-weight: 400;
+  font-size: 5vw;
+  font-style: italic;
+  color: white;
+  background-color: #AFA590;
+  text-decoration: none;
+  width: fit-content;
+  padding: 0px 50px;
+  margin-top: 20px;
+}
+.title-2{
+  font-family: font_medium_65regular;
+  font-weight: 600;
+  font-size: 9vw;
+  font-style: italic;
+  color: white;
+  background-color: #517281;
+  text-decoration: none;
+  width: fit-content;
+  padding: 0px 50px;
+  line-height: 0.9;
+  margin-top: 20px;
+}
+.banner-2{
+  background-color: #172968;
+  padding: 10px;
+}
+.banner-2 img{
+  width: 100%;
+}
+.banner-3{
+  padding: 0;
+  margin: 0;
+}
+.banner-3 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.banner-4{
+  width: 100%;
+  padding: 0px 0;
+  background-image: url(../asset/png_desktop/hand-bar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+.banner-4 img{
+  width: 150px;
+  height: 150px;
+}
+.banner-4 h2{
+  font-family: font_medium_65regular;
+  font-size: 3.5vw;
+  color: #233A73;
+  margin-top: 0;
+  margin-left: 20px;
+}
+.hidden-desktop{
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .hidden-mobile{
+    display: none;
+  }
+  .hidden-desktop{
+    display: flex;
+  }
+  .banner-1{
+    width: 100%;
+    background-image: url(../asset/png_mobile/herobanner-1.png);
+    padding: 15% 0;
+  }
+  .title-1{
+    font-size: 4.6vw;
+    padding: 0px 20px;
+    margin-top: 10px;
+  }
+  .title-2{
+    font-size: 9vw;
+    padding: 0px 20px;
+    margin-top: 10px;
+  }
+  .banner-3{
+    display: block;
+  }
+  .banner-3 img{
+    display: block;
+  }
+  .banner-4{
+    background-image: url(../asset/png_mobile/hand-bar.png);
+  }
+  .banner-4 h2{
+    font-size: 5vw;
+    line-height: 0.8;
+  }
+  .banner-4 img{
+    width: 80px;
+    height: 80px;
+  }
+}
