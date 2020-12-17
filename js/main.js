@@ -21,3 +21,11 @@ function getMobileOperatingSystem() {
 
   return "unknown";
 }
+
+function playMusic(target){
+  document.getElementById(target).play();
+}
+
+function pauseMusic(target){
+  document.getElementById(target).pause();
+}
